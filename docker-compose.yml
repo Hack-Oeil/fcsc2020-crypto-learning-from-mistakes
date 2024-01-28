@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  ssh.cyrhades.com:
+    build: ssh
+  webssh.cyrhades.com:
+    build: webssh
+    ports:
+    - "80:8888"
+  learning-from-mistakes.cyrhades.com:
+    image: anssi/fcsc2020-crypto-learning-from-mistakes:latest
+    ports:
+      - "4000:4000"
