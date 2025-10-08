@@ -1,0 +1,426 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 25px;
+}
+
+code:not([class*="language"]) {
+    color: #DE3384;
+}
+
+pre {
+    background: #eee;
+}
+
+.row img {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    line-height: inherit;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+iframe {
+    border: 0 !important;
+}
+
+section {
+    clear: both;
+    overflow: hidden;
+}
+
+.row {
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    position: relative;
+}
+
+.no-padding-bottom .row,
+.no-padding-bottom div,
+.no-padding-bottom.row {
+    padding-bottom: 0;
+}
+
+.no-padding-top.row,
+.no-padding-top div {
+    padding-top: 0;
+}
+
+.big-padding-top {
+    padding-top: 75px !important;
+}
+
+.big-padding-bottom {
+    padding-bottom: 85px !important;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+h2 {
+    padding: 14px 0;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+h4 {
+    padding: 7px 0;
+}
+
+h5 {
+    padding: 7px 0;
+}
+
+h6 {
+    padding: 7px 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.section-heading {
+    padding: 0 0 15px 0;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.section-heading h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+}
+
+.section-heading h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #2C2C3D;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+}
+
+#scrollUp {
+    bottom: 15px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 5px 20px 5px;
+    background: #ccc;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-image: url('../images/arrow-up.png');
+    background-position: center;
+    -webkit-transition: margin-bottom 150ms linear;
+    -moz-transition: margin-bottom 150ms linear;
+    -o-transition: margin-bottom 150ms linear;
+    transition: margin-bottom 150ms linear;
+    opacity: 0.8;
+}
+
+#scrollUp:hover {
+    margin-bottom: 25px;
+}
+
+.section-subtitle img {
+    height: 32px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.section-subtitle img.capture {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+body {
+    background: #fff;
+}
+
+a,
+.la-ball-triangle-path {
+    color: #2C2C3D;
+}
+
+a:hover,
+#header.nav-solid nav a:hover {
+    color: #2C2C3D;
+}
+
+.icon i {
+    color: #2C2C3D;
+}
+
+#banner .section-heading:before,
+.testimonial.classic footer:before {
+    background: #2C2C3D;
+}
+
+.pricing-block-content:hover {
+    border-color: #2C2C3D;
+}
+
+#header nav a,
+#header i {
+    color: #111;
+}
+
+#header.nav-solid,
+#header.nav-solid a,
+#header.nav-solid i,
+#nav-mobile ul li a {
+    color: #333;
+}
+
+#header.nav-solid .active {
+    color: #2C2C3D;
+    border-color: #2C2C3D;
+}
+
+.primary-color,
+.featured .pricing {
+    background-color: #2C2C3D;
+}
+
+.primary-color,
+.primary-color .section-title,
+.primary-color .section-subtitle,
+.featured .pricing,
+.featured .pricing p {
+    color: #fff;
+}
+
+.section-heading h2:after {
+    background: #2C2C3D;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 30px;
+}
+
+.text-center .section-heading h2:after {
+    margin: 30px auto 25px auto;
+}
+
+.primary-color .icon i,
+.primary-color i {
+    color: #fff;
+}
+
+.secondary-color {
+    background-color: #f5f5f5;
+}
+
+#banner {
+    background: url("../images/banner-image-1.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 15px;
+    font-weight: normal;
+    color: #111;
+}
+
+#banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 62px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #111;
+}
+
+#banner h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+}
+
+.section-title {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-weight: 700;
+    color: #111;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    color: #9c9c9c;
+}
+
+.testimonial q {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.testimonial.classic q,
+.testimonial.classic footer {
+    color: #111;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px;
+    font-weight: 300;
+    color: #111;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-weight: 300;
+    color: #111;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    color: #111;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111;
+}
+
+.button,
+input[type="submit"] {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    color: #111;
+}
+
+.button,
+input[type="submit"] {
+    border-color: #111;
+}
+
+.button:hover,
+input[type="submit"]:hover {
+    border-color: #2C2C3D;
+    color: #2C2C3D;
+}
+
+#banner .button {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    color: #111;
+}
+
+#banner .button {
+    border-color: #111;
+}
+
+#banner .button:hover {
+    color: #2C2C3D;
+    border-color: #2C2C3D;
+}
+
+#landing-footer,
+#landing-footer p,
+#landing-footer a {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+#landing-footer i {
+    color: #999;
+}

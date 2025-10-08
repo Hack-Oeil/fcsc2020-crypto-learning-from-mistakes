@@ -12,7 +12,7 @@ Origine : [Learning from Mistakes](https://hackropole.fr/fr/challenges/crypto/fc
 > http://localhost
 
 #### tentez 
-> nc groundrule.cyrhades.com:4000
+> nc groundrule.cyrhades.fr:4000
 
 
 -----------

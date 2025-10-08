@@ -9,8 +9,8 @@
 ░       ▒ ▒ ░░    ░░   ░  ░  ░░ ░  ░   ▒    ░ ░  ░    ░   ░  ░  ░  
 Bienvenue sur le serveur SSH de Cyrhades
 
-Utilisez netcat pour accéder au challenge sur le serveur learning-from-mistakes.cyrhades.com!
+Utilisez netcat pour accéder au challenge sur le serveur learning-from-mistakes.cyrhades.fr!
 
-*****:~$ nc learning-from-mistakes.cyrhades.com:4000
+*****:~$ nc learning-from-mistakes.cyrhades.fr:4000
 
 Bonne chance !
