@@ -46,7 +46,13 @@ code:not([class*="language"]) {
 }
 
 pre {
+    width: 600px;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre;
     background: #eee;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .row img {
